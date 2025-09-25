@@ -3,7 +3,7 @@ const hasParent = true;
 const sickChild = false;
 const youCanPlay = (tallEnough || hasParent) && !sickChild;
 
-if (youCanPlay == true) {
+if (youCanPlay === true) {
   console.log("Go Play");
 }
 
@@ -15,7 +15,7 @@ class Ligma {
   }
 
   checkit() {
-    if ((this.height == true || this.adult == true) && this.sick == false) {
+    if ((this.height === true || this.adult === true) && this.sick === false) {
       console.log(`You can get in.`);
     } else {
       console.log("Scram.");
